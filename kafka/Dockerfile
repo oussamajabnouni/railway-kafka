@@ -1,0 +1,4 @@
+FROM wurstmeister/kafka
+
+ENV KAFKA_ADVERTISED_HOST_NAME=localhost
+ENV KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
